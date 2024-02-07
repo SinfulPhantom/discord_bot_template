@@ -1,0 +1,11 @@
+# flyctl launch added from .gitignore
+**\.env
+**\venv
+**\__pycache__
+**\.idea
+
+# flyctl launch added from .idea\.gitignore
+# Default ignored files
+.idea\shelf
+.idea\workspace.xml
+fly.toml

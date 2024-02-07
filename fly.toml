@@ -1,0 +1,7 @@
+# fly.toml app configuration file generated for the-line-bot on 2023-07-24T21:05:32-05:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "name of your bot here"
+primary_region = "dfw"
