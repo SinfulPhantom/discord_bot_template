@@ -71,6 +71,7 @@ pip install -r requirements.txt
 - [Discord.py Docs](https://discordpy.readthedocs.io/)
 - [Fly.io](https://fly.io/)
 - [Great Fly.io Discord Bot Hosting Tutorial](https://www.youtube.com/watch?v=J7Fm7MdZn_E)
+- [Continuous Deployment with Fly.io](https://www.youtube.com/watch?v=6u9BrDaSHJc&t)
 ---
 
 If you run into any issues with the template, please [leave an issue](https://github.com/SinfulPhantom/discord_bot_template/issues) in this repo, and I'll try to get to it as soon as possible.
