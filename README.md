@@ -22,7 +22,7 @@
 
 <!-- Getting Started -->
 ## Getting Started
-> **_NOTE:_** This guide is assuming you're using Windows. Some commands may be slightly different on other operating systems
+
 ---
 Create your GitHub repo using this template:
 ![](template_button.png)
@@ -31,11 +31,24 @@ Once you've created your new repo, clone it to your machine, and now you can cre
 ```commandline
 python -m venv venv
 ```
-Be sure to source your newly created **venv**
+---
+Be sure to source your newly created **venv**:
+
+**_cmd_**
 ```commandline
-source venv/Scripts/activate
+venv/Scripts/activate.bat
 ```
 
+**_Powershell_**
+```commandline
+venv\Scripts\Activate.ps1
+```
+
+**_bash_**
+```commandline
+source venv/bin/activate
+```
+---
 Next, you need to install the necessary dependencies:
 
 ```commandline

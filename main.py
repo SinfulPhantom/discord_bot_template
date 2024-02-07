@@ -1,12 +1,12 @@
 import discord
-from discord import Interaction, app_commands
+from discord import Interaction
 
+from bot import constants, client
 from bot.commands import send_greetings
 
 from dotenv import load_dotenv
 from os import getenv
 
-from bot import constants, client
 
 # set up our environment
 load_dotenv()
@@ -21,3 +21,7 @@ tree = bot_client.tree
 @tree.command(guild=GUILD, name='introduce', description='Meet the bot')
 async def introduce(interaction: Interaction) -> None:
     await send_greetings(interaction)
+
+
+# Run the bot!
+bot_client.run(TOKEN)
