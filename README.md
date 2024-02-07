@@ -2,15 +2,18 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-    <summary>Table of Contents</summary>
-    <ol>
-        <li>
-            <a href="#important-information">Important Information</a>
-        </li>
-        <li>
-            <a href="#getting-started">Getting Started</a>
-        </li>
-    </ol>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#important-information">Important Information</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+    <li>
+      <a href="#resources">Resources</a>
+    </li>
+  </ol>
 </details>
 
 <!-- Important Information -->
@@ -64,8 +67,13 @@ pip install -r requirements.txt
 ### You should now be good to go for developing your new discord bot!
 
 ---
+## Resources
+- [Discord.py Docs](https://discordpy.readthedocs.io/)
+- [Fly.io](https://fly.io/)
+- [Great Fly.io Discord Bot Hosting Tutorial](https://www.youtube.com/watch?v=J7Fm7MdZn_E)
+---
 
-If you run into any issues with the template, please leave an issue in this repo, and I'll try to get to it as soon as possible.
+If you run into any issues with the template, please [leave an issue](https://github.com/SinfulPhantom/discord_bot_template/issues) in this repo, and I'll try to get to it as soon as possible.
 
 ---
 # ENJOY!
