@@ -2,15 +2,18 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-    <summary>Table of Contents</summary>
-    <ol>
-        <li>
-            <a href="#important-information">Important Information</a>
-        </li>
-        <li>
-            <a href="#getting-started">Getting Started</a>
-        </li>
-    </ol>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#important-information">Important Information</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+    <li>
+      <a href="#resources">Resources</a>
+    </li>
+  </ol>
 </details>
 
 <!-- Important Information -->
@@ -22,7 +25,7 @@
 
 <!-- Getting Started -->
 ## Getting Started
-> **_NOTE:_** This guide is assuming you're using Windows. Some commands may be slightly different on other operating systems
+
 ---
 Create your GitHub repo using this template:
 ![](template_button.png)
@@ -31,11 +34,24 @@ Once you've created your new repo, clone it to your machine, and now you can cre
 ```commandline
 python -m venv venv
 ```
-Be sure to source your newly created **venv**
+---
+Be sure to source your newly created **venv**:
+
+**_cmd_**
 ```commandline
-source venv/Scripts/activate
+venv/Scripts/activate.bat
 ```
 
+**_Powershell_**
+```commandline
+venv\Scripts\Activate.ps1
+```
+
+**_bash_**
+```commandline
+source venv/bin/activate
+```
+---
 Next, you need to install the necessary dependencies:
 
 ```commandline
@@ -51,8 +67,13 @@ pip install -r requirements.txt
 ### You should now be good to go for developing your new discord bot!
 
 ---
+## Resources
+- [Discord.py Docs](https://discordpy.readthedocs.io/)
+- [Fly.io](https://fly.io/)
+- [Great Fly.io Discord Bot Hosting Tutorial](https://www.youtube.com/watch?v=J7Fm7MdZn_E)
+---
 
-If you run into any issues with the template, please leave an issue in this repo, and I'll try to get to it as soon as possible.
+If you run into any issues with the template, please [leave an issue](https://github.com/SinfulPhantom/discord_bot_template/issues) in this repo, and I'll try to get to it as soon as possible.
 
 ---
 # ENJOY!
