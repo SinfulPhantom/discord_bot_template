@@ -24,7 +24,10 @@
 ## Getting Started
 > **_NOTE:_** This guide is assuming you're using Windows. Some commands may be slightly different on other operating systems
 ---
-First things first, create your virtual environment:
+Create your GitHub repo using this template:
+![](template_button.png)
+
+Once you've created your new repo, clone it to your machine, and now you can create your virtual environment:
 ```commandline
 python -m venv venv
 ```
